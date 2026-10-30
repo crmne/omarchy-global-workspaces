@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "crmne.global-workspaces",
   "name": "Global Workspaces",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Carmine Paolino",
   "license": "MIT",
-  "description": "Global Hyprland workspace numbers, with the visible workspace highlighted on each monitor. Works with hyprmoncfg workspace plans.",
+  "description": "Omarchy's original global workspace bar, with cross-monitor switching and layout controls. Works with hyprmoncfg workspace plans.",
   "kinds": ["bar-widget"],
   "entryPoints": { "barWidget": "Workspaces.qml" },
   "barWidget": {
