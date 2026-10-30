@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "crmne.global-workspaces",
+  "name": "Global Workspaces",
+  "version": "0.1.0",
+  "author": "Carmine Paolino",
+  "license": "MIT",
+  "description": "Global Hyprland workspace numbers, with the visible workspace highlighted on each monitor. Works with hyprmoncfg workspace plans.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Workspaces.qml" },
+  "barWidget": {
+    "displayName": "Global Workspaces",
+    "description": "Global workspace numbers across every monitor",
+    "category": "Compositor",
+    "allowMultiple": false
+  },
+  "omarchy": { "clonedFrom": "omarchy.workspaces" }
+}
