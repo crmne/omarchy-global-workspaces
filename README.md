@@ -10,7 +10,7 @@ The bar shows the first five workspaces, every numbered workspace in your config
 
 This widget changes the bar only. Use it with global workspace shortcuts and assignments, such as hyprmoncfg's global workspace plans. It does not disable Omarchy's per-monitor workspace manager, change your monitor layout, move windows, or rewrite your keyboard shortcuts.
 
-Omarchy 4.5 RC2 introduces per-monitor numbering and has no supported global-mode toggle. A compatible hyprmoncfg build writes the workspace handoff in its existing generated Lua configuration when workspace planning is enabled. Older hyprmoncfg releases need that handoff separately. The proposed [Omarchy workspace toggle](https://github.com/omacom/omarchy/pull/16213) is another path once available.
+Omarchy 4.5 RC2 introduces per-monitor numbering and has no supported global-mode toggle. hyprmoncfg 1.26.0 and newer write the workspace handoff in its existing generated Lua configuration when workspace planning is enabled. Older hyprmoncfg releases need that handoff separately. The proposed [Omarchy workspace toggle](https://github.com/omacom/omarchy/pull/16213) is another path once available.
 
 ## Install
 
